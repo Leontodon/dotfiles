@@ -119,9 +119,6 @@ lua <<EOF
   require('lspconfig')['vimls'].setup {
     capabilities = capabilities
   }
-  require('lspconfig')['typos_lsp'].setup {
-    capabilities = capabilities
-  }
   require('lspconfig')['lua_ls'].setup {
     capabilities = capabilities
   }
