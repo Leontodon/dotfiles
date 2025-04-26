@@ -40,6 +40,9 @@ call airline#parts#define('linenr', {'function': 'MyLineNumber', 'accents': 'bol
 
 let g:airline_section_z = airline#section#create(['%3p%%: ', 'linenr', ':%3v'])
 
+set tabstop=4
+set shiftwidth=4
+
 lua require("mason").setup()
 lua require("mason-lspconfig").setup()
 lua <<EOF
